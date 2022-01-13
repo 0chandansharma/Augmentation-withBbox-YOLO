@@ -5,9 +5,9 @@ import cv2
 import numpy as np
 from util import sequence
 
-anno_INPUT_DIR = r'D:\Sandlogic\Projects\Projects_r2g\Augment_krdo\input\anno\Visionet_SLR_Camera/'
-img_INPUT_DIR = r'F:\Photoshield\Photo_sheild_24_12_21\Visionet_SLR_Camera/'
-OUTPUT_DIR = 'D:\Sandlogic\Projects\Projects_r2g\Augment_krdo\output\Visionet_SLR_Camera/'
+anno_INPUT_DIR = r'annotation_files/'
+img_INPUT_DIR = r'image_files/'
+OUTPUT_DIR = 'output_dir/'
 AUGMENT_SIZE = 6
 
 
