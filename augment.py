@@ -81,13 +81,13 @@ def augment(image_path, annotation_path,file_name):
                 h_norm = (bb.y2 - bb.y1)/im_height
                 # res += str(bb.label)+' '+ str("{:.5f}".format(x_norm))+' '+str("{:.5f}".format(y_norm))+' '+str("{:.5f}".format(w_norm))+ ' ' +str("{:.5f}".format(h_norm)) + '\n'
 
-                if bb.label=='Mobile':
+                if bb.label=='a':
                     leb=0
-                elif bb.label=='Digital Camera':
+                elif bb.label=='b':
                     leb=1
-                elif bb.label=='Person':
+                elif bb.label=='c':
                     leb=2
-                elif bb.label=='Mobile With Flash':
+                elif bb.label=='d':
                     leb=3
                 else:
                     print(bb.label)
